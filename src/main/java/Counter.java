@@ -48,5 +48,13 @@ public class Counter {
 	public int getCount() {
 		return count;
 	}
+
+	public int divideCountBy(int divisor) {
+		return count / divisor;
+	}
+
+	public boolean isBig() {
+		return count > 100;
+	}
 	
 }
